@@ -51,6 +51,10 @@ export const GlobalStyle = createGlobalStyle`
         -moz-background-clip: text;
         -moz-text-fill-color: transparent;
         text-align: center;
+        @media (max-width: 768px) {
+        font-size: 40px;
+  }
+        
 
       }
 
