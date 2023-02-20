@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/react-trivia/static/js/main.1095a451.js",
+    "main.js": "/react-trivia/static/js/main.b287f642.js",
     "static/media/canyon.jpeg": "/react-trivia/static/media/canyon.a21e822f37bc08623ec5.jpeg",
     "index.html": "/react-trivia/index.html",
-    "main.1095a451.js.map": "/react-trivia/static/js/main.1095a451.js.map"
+    "main.b287f642.js.map": "/react-trivia/static/js/main.b287f642.js.map"
   },
   "entrypoints": [
-    "static/js/main.1095a451.js"
+    "static/js/main.b287f642.js"
   ]
 }
