@@ -1,4 +1,4 @@
-## [Live Demo](https://google.com)
+## [Live Demo](https://austinschroeder.github.io/react-trivia/)
 
 ---
 
