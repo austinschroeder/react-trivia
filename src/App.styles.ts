@@ -1,5 +1,5 @@
 import styled, {createGlobalStyle} from "styled-components";
-import BGImage from "./images/epic-nature.jpg"
+import BGImage from "./images/canyon.jpeg"
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -7,16 +7,18 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
       background-image: url(${BGImage});
+      height: 100vh;
+      background-repeat: no-repeat;
       background-size: cover;
       margin: 0;
       padding: 0 20px;
       display: flex;
       justify-content: center;
     }
-
+    
     * {
+      font-family: Titillium Web, sans-serif;
       box-sizing: border-box;
-      font-family: 'Catamaran', sans-serif;
     }
     `
 
@@ -37,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
 
       h1 {
         font-family: Poppins, 'Arial Narrow Bold', sans-serif;
-        background-image: linear-gradient(180deg, #fff, #87f1ff);
+        background-image: linear-gradient(180deg, #fff, #87f);
         background-size: 100%;
         background-clip: text;
         font-size: 70px;
@@ -54,12 +56,13 @@ export const GlobalStyle = createGlobalStyle`
 
       .start, .next {
         cursor: pointer;
-        background: linear-gradient(180deg, #fff, #ffcc91);
+        background: linear-gradient(180deg, #fff, #87f);
         padding: 0 40px;
         height: 40px;
         margin: 20px 0;
-        border-radius: 10px;
-        border: 2px solid #d38558;
+        font-size: 1rem;
+        border-radius: 20px;
+        border: 2px solid #87f;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
       }
 
