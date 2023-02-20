@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/react-trivia/static/js/main.91bcbac3.js",
+    "static/media/canyon.jpeg": "/react-trivia/static/media/canyon.a21e822f37bc08623ec5.jpeg",
+    "index.html": "/react-trivia/index.html",
+    "main.91bcbac3.js.map": "/react-trivia/static/js/main.91bcbac3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.91bcbac3.js"
+  ]
+}
