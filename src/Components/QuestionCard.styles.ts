@@ -14,7 +14,13 @@ export const Wrapper = styled.div`
     font-size: 1.3rem;
     color: #fff;
     max-width: 500px;
-   }         
+   } 
+   
+   .number {
+    @media (max-width: 600px) {
+        margin-top: 10px;
+  }
+   }
     `;
 
    type ButtonWrapperProps = {
